@@ -66,7 +66,9 @@ body{
 }
 
 .controls{
-
+display: flex;
+justify-content: space-evenly;
+align-items: center;
 }
 
 .controls button{
@@ -74,6 +76,8 @@ body{
     border: none;
     border-radius: 10px;
     padding: 1rem 1rem;
+    margin: .5rem;
+    
 
 }
 
@@ -81,4 +85,8 @@ body{
     border-radius: 10px;
     height: 45px;
     border: none;
+}
+
+::placeholder{
+    text-align: center;
 }

@@ -132,8 +132,8 @@ window.addEventListener("load", ()=> {
 
         buttonTwo.onclick = function(){
             
-            console.log(inputCity.value)
-            //document.location.reload()
+            //console.log(inputCity.value)
+            document.location.reload()
         }
 
         
